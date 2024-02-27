@@ -1,26 +1,15 @@
 import React from 'react'
-import StickyMenu from "../assets/StickyMenu.png"
-import ImgSlide from "../assets/ImageSlider.png"
 import SignUp from "../assets/SignUp.png"
 import dasboardImg from "../assets/Dashboard.png"
+import blogImage from "../assets/blogApp.png"
+import homeDestination from "../assets/home_destination.png"
 
 const Portfolio = () => {
 
     const portfolios = [
+       
         {
             id:1,
-            src:StickyMenu,
-            href:"https://github.com/pitambar77/StickyMenuBar.git",
-            name:"sticky Menu"
-        },
-        {
-            id:2,
-            src:ImgSlide,
-            name:"Image Slider",
-            href:"https://github.com/pitambar77/ImageSlider.git"
-        },
-        {
-            id:3,
             src:SignUp,
             name:"Sign In",
             href:"https://github.com/pitambar77/Dashboard_Heade_Login.git"
@@ -28,10 +17,24 @@ const Portfolio = () => {
         },
        
         {
-            id:4,
+            id:2,
             src:dasboardImg,
             name:"Dashboard",
             href:"https://github.com/pitambar77/Dashboard_Heade_Login.git"
+            
+        },
+        {
+            id:3,
+            src:blogImage,
+            name:"Blog Application",
+            href:"https://github.com/pitambar77/nmblogapp.git"
+            
+        },
+        {
+            id:4,
+            src:homeDestination,
+            name:"Builder App",
+            href:"https://github.com/pitambar77/home_destination.git"
             
         },
     ]

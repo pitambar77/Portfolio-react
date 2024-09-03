@@ -7,15 +7,26 @@ const About = () => {
             <div className=' pb-8'>
                 <p className=' text-4xl font-bold inline border-b-4 border-gray-500'>About<span className='mx-2 text-cyan-400'>Me</span> </p>
             </div>
-            <h2 className=' text-2xl font-semibold text-orange-300'>Frontend Developer!</h2>
-            <p className='  mt-10 font-semibold text-gray-400'>
-            "Hello, I'm a dedicated frontend developer passionate about crafting immersive digital experiences.
-             Proficient in HTML, CSS, and JavaScript, I specialize in translating design concepts into responsive and engaging web interfaces.
-              With expertise in modern frameworks like React, I create dynamic applications that seamlessly merge design and functionality. 
-              I prioritize clean code and pixel-perfect designs to ensure optimal user experiences. <br/>
-              Explore my portfolio to see my work and let's collaborate to bring your ideas to life in the digital world."
-            </p>
-            <br />
+            <h2 className=' text-2xl font-semibold text-orange-300'>MERN Stack Developer!</h2>
+            <div className='  mt-10 font-semibold text-gray-400 space-y-4'>
+                <p >
+                    "Hello, I'm a dedicated MERN Stack Developer with a passion for crafting immersive digital experiences. 
+                    Proficient in HTML, CSS, and JavaScript, I excel at transforming design concepts into responsive, engaging web interfaces. 
+                    My expertise spans the entire MERN stack, including MongoDB, Express.js, React, and Node.js. 
+                </p>
+                
+                <p>
+                    With React and Redux, I build dynamic and interactive front-end applications that offer seamless user experiences. 
+                    On the server side, I utilize Node.js and Express.js to create scalable and efficient back-end solutions,
+                    while MongoDB provides a flexible and powerful database for data management. 
+                </p>
+                
+                <p>
+                    I prioritize clean code and pixel-perfect designs to deliver optimal performance and user satisfaction. Explore my portfolio to see my work, and let’s collaborate to bring your digital ideas to life."
+                </p>
+            </div>
+           
+              
             <div className='w-full py-4 grid grid-cols-2 sm:grid-cols-2 gap-4 sm:px-0'>
                 <div>
                    

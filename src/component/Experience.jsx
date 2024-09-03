@@ -5,6 +5,9 @@ import js from "../assets/js.png"
 import react1 from "../assets/react1.png"
 import tailwind from "../assets/tailwind.png"
 import java from "../assets/java.png"
+import mongodb from "../assets/mongodb.png"
+import nodeJs from "../assets/nodeExpress.png"
+
 
 const Experience = () => {
 
@@ -45,6 +48,18 @@ const Experience = () => {
             src:java,
             title:'Java',
             style:'shadow-white'
+        },
+        {
+            id:7,
+            src:mongodb,
+            title:'mongoDB',
+            style:'shadow-orange-500'
+        },
+        {
+            id:8,
+            src:nodeJs,
+            title:'NodeJs & Express',
+            style:'shadow-yellow-500'
         },
     ]
 

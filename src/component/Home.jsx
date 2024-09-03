@@ -12,11 +12,11 @@ const Home = () => {
                     Hi, I'm Pitambar Majhi
                 </h2>
                 <h2 className=' tex-2xl sm:text-2xl font-bold text-sky-500 py-2'>
-                    Frontend Developer
+                    MERN Stack Developer
                 </h2>
                 <p className=' text-gray-500 py-4 max-w-md font-semibold'>
                 "Greetings! I bring experience in building and designing web applications.
-                 My current passion revolves around crafting with technologies like React, Tailwind, JavaScript, HTML, and CSS.
+                 My current passion revolves around crafting with technologies like JavaScript, React,Redux, NodeJs ,Express, MongoDb , HTML,CSS and Tailwind.
                  <br/> Let's collaborate on your next digital venture!"
                 </p>
                 <div>

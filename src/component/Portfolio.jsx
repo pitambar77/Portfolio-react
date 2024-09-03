@@ -1,8 +1,9 @@
 import React from 'react'
 import SignUp from "../assets/SignUp.png"
 import dasboardImg from "../assets/Dashboard.png"
-import blogImage from "../assets/blogApp.png"
+import blogImage from "../assets/blogImage.png"
 import homeDestination from "../assets/home_destination.png"
+import ogmp from "../assets/ogmp.png"
 
 const Portfolio = () => {
 
@@ -27,7 +28,7 @@ const Portfolio = () => {
             id:3,
             src:blogImage,
             name:"Blog Application",
-            href:"https://github.com/pitambar77/nmblogapp.git"
+            href:"https://wanderwave-ng-blog.netlify.app"
             
         },
         {
@@ -35,6 +36,13 @@ const Portfolio = () => {
             src:homeDestination,
             name:"Builder App",
             href:"https://github.com/pitambar77/home_destination.git"
+            
+        },
+        {
+            id:5,
+            src:ogmp,
+            name:"Ecommerce web",
+            href:"https://ogmp-80ly.onrender.com"
             
         },
     ]
